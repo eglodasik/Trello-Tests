@@ -9,8 +9,8 @@ import static io.restassured.RestAssured.given;
 
 
 public class BaseTest {
-    protected static final String KEY = "03d14d3d1406ccfa2a667c41411adfd2";
-    protected static final String TOKEN = "9f1bed34090134af6b3a3ebd6863659b2fd54499dee9b298f1ada07ef6986881";
+    protected static final String KEY = "";
+    protected static final String TOKEN = "";
     protected static final String BASE_URL = "https://api.trello.com/1/";
     protected static final  String BOARDS = "boards";
     protected static final String LISTS = "lists";
