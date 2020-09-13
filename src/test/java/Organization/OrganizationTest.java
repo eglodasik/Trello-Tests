@@ -14,7 +14,6 @@ import static io.restassured.RestAssured.given;
 import static org.apache.http.HttpStatus.*;
 
 public class OrganizationTest extends BaseTest {
-
     static List<String> orgIds = new ArrayList<String>();
 
     @Test

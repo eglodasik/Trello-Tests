@@ -117,7 +117,7 @@ public class BoardTest extends BaseTest {
         List<String> nameList = jsonGet.getList("name");
 
         Assertions.assertThat(nameList).hasSize(3)
-                .contains("Do zrobienia", "W trakcie", "Zrobione");
+                .contains("To Do", "Doing", "Done");
 
         given()
                 .spec(reqSpec)
